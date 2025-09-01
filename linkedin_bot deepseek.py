@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # 🔑 Configuração da API do DeepSeek
 DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
-DEEPSEEK_API_KEY = "sk-8765069be0ee46b0a70fbb9e14e3dd6f"  # Obtenha em: https://platform.deepseek.com/
+DEEPSEEK_API_KEY = "[CHAVE-DEEPSEEK]"  # Obtenha em: https://platform.deepseek.com/
 
 # Funções para localização do botão de candidatura
 def encontrar_botao_candidatura(driver):
@@ -232,4 +232,5 @@ def main():
         print("🛑 Navegador fechado. Processo concluído!")
 
 if __name__ == "__main__":
+
     main()
